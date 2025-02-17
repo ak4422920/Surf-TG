@@ -16,7 +16,7 @@ class Telegram:
     AUTH_CHANNEL = [channel.strip() for channel in getenv("AUTH_CHANNEL", "-1002475275261,-1002386873051,-1002333030990,-1002295131184,-1002435507517").split(",") if channel.strip()]
     THEME = getenv("THEME", "quartz").lower()
     USERNAME = getenv("USERNAME", "admin")
-    PASSWORD = getenv("PASSWORD", "ak")
+    PASSWORD = getenv("PASSWORD", "admin")
     ADMIN_USERNAME = getenv("ADMIN_USERNAME", "cine")
     ADMIN_PASSWORD = getenv("ADMIN_PASSWORD", "cine")
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
