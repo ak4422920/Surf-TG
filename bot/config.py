@@ -21,5 +21,5 @@ class Telegram:
     ADMIN_PASSWORD = getenv("ADMIN_PASSWORD", "cine")
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '20'))
-    MULTI_CLIENT = getenv('MULTI_CLIENT', 'False')
+    MULTI_CLIENT = getenv('MULTI_CLIENT', 'True')
     HIDE_CHANNEL = getenv('HIDE_CHANNEL', 'False')
